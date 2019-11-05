@@ -1,0 +1,113 @@
+
+body{
+  background: #66a6ff
+}
+
+.App {
+  margin:     10px;
+  padding:    10px;
+
+  text-align: center;
+}
+
+.VDiagram{
+  position:     relative;
+  margin:       auto;
+
+  width:        470px;
+  min-height:       250px;
+
+  border:       2px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.Controls{
+  margin: auto;
+  padding: 10px;
+  
+}
+
+.InputField{
+  margin: auto;
+  margin-top: 10px;
+
+  width: 400px;
+  height: 40px;
+
+  font-size: 20pt;
+  overflow: auto;
+  border: 1px solid grey ;
+  background-color: white;
+}
+
+.Circle1{  
+  position:      absolute;
+  top:           30px;
+  left:          100px;
+  
+  padding:       90px;
+  border:        2px solid black;
+
+  overflow:      hidden;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.Circle2{
+  position:    absolute;
+  top:         30px;
+  right:       70px;
+  padding:     90px;
+  border:      2px solid black;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.OvalMiddle{
+  position:    absolute;
+
+  top:         -1px;
+  left:        113px;
+
+  padding:     90px;
+
+  border:      2px solid black;
+  border-radius: 50%;
+
+  background-color: white;
+}
+
+.btn{
+  margin-right: 10px;
+  padding: 10px;
+  width: 50px;
+  
+  background: lightblue;/*#05f1de;*/
+  font-size: 20pt;
+  
+  border: none;
+  border-radius: 10px;
+}
+
+.clear{
+  margin-left: 20px;
+  padding: 10px;
+  width: 100px;
+  
+  color: white;
+  background: #c72003;
+  font-size: 20pt;
+
+  border: none;
+  border-radius: 10px;
+}
+
+.clear:hover{
+  background: red;
+}
+
+.Shaded {
+  background-color: #09d3ac;
+}
+
